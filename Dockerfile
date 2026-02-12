@@ -9,4 +9,4 @@ RUN chmod +x /app/scripts/install_texlive.sh
 
 RUN /app/scripts/install_texlive.sh
 
-RUN ln -s /usr/local/texlive/2024/bin/x86_64-linux/lualatex-dev /usr/local/lualatex
+RUN ln -s /usr/local/texlive/2025/bin/x86_64-linux/lualatex-dev /usr/local/lualatex
